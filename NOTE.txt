@@ -1,0 +1,9 @@
+truffle init // init project
+
+truffle compile //compile code
+
+truffle migrate --reset // migrate to local network
+
+truffle console //debug code
+
+var hello =  await HelloWorld.deployed() // run with Smartcontract HelloWorld
